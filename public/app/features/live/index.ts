@@ -10,7 +10,7 @@ import { GrafanaLiveService } from './live';
 
 export function initGrafanaLive() {
   const centrifugeServiceDeps = {
-    appUrl: `${window.location.origin}${config.appSubUrl}`,
+    appUrl: ``,
     orgId: contextSrv.user.orgId,
     orgRole: contextSrv.user.orgRole,
     liveEnabled: config.liveEnabled,
